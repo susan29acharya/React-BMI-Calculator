@@ -1,0 +1,65 @@
+.bmi-heading{
+    height: 10vh;
+    width: 30%;
+    border-radius: 10px;
+    background-color: #f9004d;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: 7.5%;
+}
+.bmi-heading h1{
+    color: white;
+    letter-spacing: 1px;
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+
+.bmi-form{
+    height: 57vh;
+    width: 40%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #191919;
+    position: absolute;
+    z-index: 1;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.bmi-form form{
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.bmi-form form input{
+    height: 7vh;
+    width: 60%;
+    border: none;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.bmi-form form input::placeholder{
+    letter-spacing: 1px;
+    
+}
+.bmi-form form button{
+    height: 5vh;
+    width: 25%;
+    border-radius: 6px;
+    margin-left: 1%;
+    margin-right: 2%;
+    border: 1px solid black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 3%;
+}
+.bmi-form form h3{
+    padding-left: 1%;
+}
+.bmi-form form span{
+    padding-left: 1%;
+}
